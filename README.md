@@ -1,5 +1,5 @@
 # StringManipulationInC
-Few core string manipulations functions in C
+Few core string manipulating functions in C
 Siken Dongol Jan 27, 2018
 
 Four functions written in core C without using any library functions.
