@@ -33,7 +33,7 @@ void main() {
 
 }
 
-/* Function of find the length of the string*/
+/* Function to find the length of the given string*/
 int StringLength(char *InStr) {
 	int i = 0;
 	while (InStr[i++] != '\0');
