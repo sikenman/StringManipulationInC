@@ -9,20 +9,17 @@ Four functions written in core C without using any library functions.
 4. char *ToUpperCase(char *InStr); => Convert all characters in the given string to uppercase characters
 
 # Output
-asdfsdf
-asdfasd
-
 String Manipulations in C without using library
-===============================================
 
-
-Enter String: Siken MS DonGOL, (800) 555-1234 is my Number. !@#$
-Original : Siken MS DonGOL, (800) 555-1234 is my Number. !@#$
-Length   : 50
-Reversed : $#@! .rebmuN ym si 4321-555 )008( ,LOGnoD SM nekiS
-ToLower  : siken ms dongol, (800) 555-1234 is my number. !@#$
-ToUpper  : SIKEN MS DONGOL, (800) 555-1234 IS MY NUMBER. !@#$
+1. Enter String: Siken MS DonGOL, (800) 555-1234 is my Number. !@#$
+2. Original : Siken MS DonGOL, (800) 555-1234 is my Number. !@#$
+3. Length   : 50
+4. Reversed : $#@! .rebmuN ym si 4321-555 )008( ,LOGnoD SM nekiS
+5. ToLower  : siken ms dongol, (800) 555-1234 is my number. !@#$
+6. ToUpper  : SIKEN MS DONGOL, (800) 555-1234 IS MY NUMBER. !@#$
 
 End of the Program!
 
-Note: The above program was successfully complied with C complier that comes with Visual Studio 2017
+Note:
+=====
+The above program was successfully complied with C complier that comes with Visual Studio 2017
