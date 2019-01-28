@@ -1,6 +1,7 @@
 # StringManipulationInC
 Few core string manipulating functions in C
-Siken Dongol Jan 27-Jan 28, 2019
+
+By Siken Dongol Jan 27-Jan 28, 2019
 
 Four functions written in core C without using any library functions.
 1. int StringLength(char *); => Find the length of the given string
