@@ -190,7 +190,7 @@ char* StringMid2(char *InStr, int start) {
 	char *OutStr = malloc(sizeof(char) * (n));
 
 	int index = 0;
-	while (n > 0) {
+	while (n >= 0) {
 		OutStr[index] = InStr[(start - 1) + index];
 		//printf_s("%d %d %s\n", len, index, OutStr);
 		index++;
