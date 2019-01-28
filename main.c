@@ -9,9 +9,9 @@ char *StringRight(char *, int);
 
 /*
 	Some core level string manipulating functions written in C
-	Author			: [Siken MS Dongol]
-	Created Date	: [1/26/2019]
-	Modified Date	: [1/27/2019]
+	Author        : [Siken MS Dongol]
+	Created Date  : [1/26/2019]
+	Modified Date : [1/27/2019]
 */
 void main() {
 
@@ -40,7 +40,7 @@ void main() {
 	printf("\nEnd of the Program!");
 }
 
-/* Function of find the length of the string*/
+/* Function to find the length of the string*/
 int StringLength(char *InStr) {
 	int i = 0;
 	while (InStr[i++] != '\0');
