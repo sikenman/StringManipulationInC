@@ -7,16 +7,24 @@ Four functions written in core C without using any library functions.
 2. char *StringReverse(char *InStr); => Reverse the given string
 3. char *ToLowerCase(char *InStr); => Convert all characters in the given string to lowercase characters
 4. char *ToUpperCase(char *InStr); => Convert all characters in the given string to uppercase characters
+5. char *StringLeft(char *, int); => Gets substring of N characters from the given string from left
+6. char *StringRight(char *, int); => Gets substring of N characters from the given string from right
 
 # Output
 String Manipulations in C without using library
 
-1. Enter String: Siken MS DonGOL, (800) 555-1234 is my Number. !@#$
-2. Original : Siken MS DonGOL, (800) 555-1234 is my Number. !@#$
+1. Enter String: ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
+2. Original : ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
 3. Length   : 50
-4. Reversed : $#@! .rebmuN ym si 4321-555 )008( ,LOGnoD SM nekiS
-5. ToLower  : siken ms dongol, (800) 555-1234 is my number. !@#$
-6. ToUpper  : SIKEN MS DONGOL, (800) 555-1234 IS MY NUMBER. !@#$
+4. Reversed : &^%$#@!0987654321+ZY-xwvu-TSRQ-ponm-LKJI-hgfe-DCBA
+5. ToLower  : abcd-efgh-ijkl-mnop-qrst-uvwx-yz+1234567890!@#$%^&
+6. ToUpper  : ABCD-EFGH-IJKL-MNOP-QRST-UVWX-YZ+1234567890!@#$%^&
+7. Left(0)  :
+8. Left(4)  : ABCD
+9. Left(99) : ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
+10. Right(0) :
+11. Right(7) : !@#$%^&
+12. Right(99): ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
 
 End of the Program!
 
