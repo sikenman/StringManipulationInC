@@ -31,10 +31,10 @@ void main() {
 	printf("Reversed : %s\n", revString);
 	printf("ToLower  : %s\n", ToLowerCase(MyString));
 	printf("ToUpper  : %s\n", ToUpperCase(MyString));
-	printf("Left(4)  : %s\n", StringLeft(MyString, 0));
-	printf("Left(0)  : %s\n", StringLeft(MyString, 4));
+	printf("Left(0)  : %s\n", StringLeft(MyString, 0));
+	printf("Left(4)  : %s\n", StringLeft(MyString, 4));
 	printf("Left(99) : %s\n", StringLeft(MyString, 99));
-	printf("Right(4) : %s\n", StringRight(MyString, 0));
+	printf("Right(0) : %s\n", StringRight(MyString, 0));
 	printf("Right(7) : %s\n", StringRight(MyString, 7));
 	printf("Right(99): %s\n", StringRight(MyString, 100));
 	printf("\nEnd of the Program!");
