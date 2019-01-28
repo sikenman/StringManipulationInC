@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 int StringLength(char *);
-char *StringReverse(char *InStr);
-char *ToLowerCase(char *InStr);
-char *ToUpperCase(char *InStr);
+char *StringReverse(char *);
+char *ToLowerCase(char *);
+char *ToUpperCase(char *);
+char *StringLeft(char *, int);
+char *StringRight(char *, int);
 
 /*
 	Some core level string manipulating functions written in C
-	Author	: [Siken MS Dongol]
-	Date	: [1/26/2019]
+	Author			: [Siken MS Dongol]
+	Created Date	: [1/26/2019]
+	Modified Date	: [1/27/2019]
 */
-
 void main() {
 
 	printf("%s\n", "String Manipulations In C without using Library");
@@ -29,11 +31,16 @@ void main() {
 	printf("Reversed : %s\n", revString);
 	printf("ToLower  : %s\n", ToLowerCase(MyString));
 	printf("ToUpper  : %s\n", ToUpperCase(MyString));
+	printf("Left(4)  : %s\n", StringLeft(MyString, 0));
+	printf("Left(0)  : %s\n", StringLeft(MyString, 4));
+	printf("Left(99) : %s\n", StringLeft(MyString, 99));
+	printf("Right(4) : %s\n", StringRight(MyString, 0));
+	printf("Right(7) : %s\n", StringRight(MyString, 7));
+	printf("Right(99): %s\n", StringRight(MyString, 100));
 	printf("\nEnd of the Program!");
-
 }
 
-/* Function to find the length of the given string*/
+/* Function of find the length of the string*/
 int StringLength(char *InStr) {
 	int i = 0;
 	while (InStr[i++] != '\0');
@@ -92,6 +99,50 @@ char* ToUpperCase(char *InStr) {
 		if ((letter >= 97) && (letter <= 122))
 			letter = letter - 32;
 		OutString[index++] = letter;
+	}
+
+	OutString[index] = '\0';
+	return OutString;
+}
+
+/* Function that extracts given N characters from the given string starting from left*/
+char* StringLeft(char *InStr, int n) {
+
+	if (n <= 0) n = 0;
+
+	int len = StringLength(InStr);
+	if (n >= len) n = len;
+
+	//Dynamic memory allocation
+	char *OutString = malloc(sizeof(char) * (n));
+
+	int index = 0;
+	while (n > 0) {
+		OutString[index] = InStr[index];
+		index++;
+		n--;
+	}
+
+	OutString[index] = '\0';
+	return OutString;
+}
+
+/* Function that extracts given N characters from the given string starting from right*/
+char* StringRight(char *InStr, int n) {
+
+	if (n <= 0) n = 0;
+
+	int len = StringLength(InStr);
+	if (n >= len) n = len;
+
+	//Dynamic memory allocation
+	char *OutString = malloc(sizeof(char) * (n));
+
+	int index = 0;
+	while (n > 0) {
+		OutString[index] = InStr[len - n];
+		index++;
+		n--;
 	}
 
 	OutString[index] = '\0';
