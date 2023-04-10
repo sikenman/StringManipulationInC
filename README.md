@@ -62,5 +62,4 @@ gh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
 End of the Program!
 
 ## Note:
-=====
 The above program was successfully complied with C complier that comes with Visual Studio 2017
