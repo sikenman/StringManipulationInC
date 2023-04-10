@@ -5,14 +5,14 @@ By Siken Dongol Jan 27-Jan 28, 2019
 
 Functions written in core C without using any library functions.
 ```c
-int StringLength(char *); => Find the length of the given string
-char *StringReverse(char *InStr); => Reverse the given string
-char *ToLowerCase(char *InStr); => Convert all characters in the given string to lowercase characters
-char *ToUpperCase(char *InStr); => Convert all characters in the given string to uppercase characters
-char *StringLeft(char *, int); => Gets substring of N characters from the given string from left
-char *StringRight(char *, int); => Gets substring of N characters from the given string from right
-char *StringMid(char *, int, int); => Get substring from the given string from start position upto N characters
-char *StringMid2(char *, int); => Get substring from the given string from start position till end
+int StringLength(char *);         // Find the length of the given string
+char *StringReverse(char *InStr); // Reverse the given string
+char *ToLowerCase(char *InStr);   // Convert all characters in the given string to lowercase characters
+char *ToUpperCase(char *InStr);   // Convert all characters in the given string to uppercase characters
+char *StringLeft(char *, int);    // Gets substring of N characters from the given string from left
+char *StringRight(char *, int);   // Gets substring of N characters from the given string from right
+char *StringMid(char *, int, int);// Get substring from the given string from start position upto N characters
+char *StringMid2(char *, int);    // Get substring from the given string from start position till end
 ```
 
 # Output
