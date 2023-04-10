@@ -22,34 +22,45 @@ String Manipulations in C without using library
 ```
 ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
 ```
-
 ### Length
 ```
 50
 ```
-
 ### Reversed
 ```
 &^%$#@!0987654321+ZY-xwvu-TSRQ-ponm-LKJI-hgfe-DCBA
 ```
-
 ### ToLower
 ```
 abcd-efgh-ijkl-mnop-qrst-uvwx-yz+1234567890!@#$%^&
 ```
+### ToUpper
+```
+ABCD-EFGH-IJKL-MNOP-QRST-UVWX-YZ+1234567890!@#$%^&
+```
+### Left(0)
+```
 
-6. ToUpper  : ABCD-EFGH-IJKL-MNOP-QRST-UVWX-YZ+1234567890!@#$%^&
-7. Left(0)  :
-8. Left(4)  : ABCD
-9. Left(99) : ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
-10. Right(0) :
-11. Right(7) : !@#$%^&
-12. Right(99): ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
-13. Mid(3,5) : CD-ef
-14. Mid(8)   : gh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
+```
+### Left(4)
+```
+ABCD
+```
+### Right(7)
+```
+!@#$%^&
+```
+### Mid(3,5)
+```
+CD-ef
+```
+### Mid(8)
+```
+gh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
+```
 
 End of the Program!
 
-Note:
+## Note:
 =====
 The above program was successfully complied with C complier that comes with Visual Studio 2017
