@@ -15,14 +15,29 @@ char *StringMid(char *, int, int);// Get substring from the given string from st
 char *StringMid2(char *, int);    // Get substring from the given string from start position till end
 ```
 
-# Output
+## Output
 String Manipulations in C without using library
 
-1. Enter String: ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
-2. Original : ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
-3. Length   : 50
-4. Reversed : &^%$#@!0987654321+ZY-xwvu-TSRQ-ponm-LKJI-hgfe-DCBA
-5. ToLower  : abcd-efgh-ijkl-mnop-qrst-uvwx-yz+1234567890!@#$%^&
+### Entered String
+```
+ABCD-efgh-IJKL-mnop-QRST-uvwx-YZ+1234567890!@#$%^&
+```
+
+### Length
+```
+50
+```
+
+### Reversed
+```
+&^%$#@!0987654321+ZY-xwvu-TSRQ-ponm-LKJI-hgfe-DCBA
+```
+
+### ToLower
+```
+abcd-efgh-ijkl-mnop-qrst-uvwx-yz+1234567890!@#$%^&
+```
+
 6. ToUpper  : ABCD-EFGH-IJKL-MNOP-QRST-UVWX-YZ+1234567890!@#$%^&
 7. Left(0)  :
 8. Left(4)  : ABCD
